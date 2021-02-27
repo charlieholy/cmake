@@ -6,4 +6,4 @@ macro(add_gtest NAME_)
   argc_checker( ${ARGC} 2 "no sources given for test: ${NAME_}")
 endmacro(add_gtest)
 
-add_gtest(charlie)
+add_gtest(charlie testcase1.cpp)
