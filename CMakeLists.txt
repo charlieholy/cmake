@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.17)
 project(ProjectName)
+include(arch.cmake)
 include(argc.cmake)
 enable_testing()
 macro(add_gtest NAME_)
